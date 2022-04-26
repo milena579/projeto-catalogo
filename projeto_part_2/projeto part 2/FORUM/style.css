@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    color: aliceblue;
+    background-color: rgb(17, 16, 16);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: black;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    justify-content: right;
+}
+
+.cabecalho-menu-item {
+    display: flex;
+    font-family: 'Anybody', cursive;
+    font-size: 18px;
+    color: firebrick;
+}
+
+.cabecalho-menu .perfil {
+    justify-content: right;
+}
+.perfil {
+    background-color: rgb(199, 25, 25);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: firebrick;
+    display: flex;
+       
+}
+.perfil img{
+    color: firebrick;
+    height: 40px;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.fundo-dif h1 {
+    display: flex;
+    font-family: 'Anybody', cursive;
+    text-align: left;
+    margin-left: 40px;
+    font-size:50px;
+
+}
+
+.fundo-dif {
+    display: flex;
+    align-items: center;
+    background-image:url(fundoforum.png);
+    width: 100%;
+    height:300px ;
+
+}
+
+.rodape {
+    font-family: 'Anybody', cursive;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: firebrick;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+}
+
+.rodape-texto {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.caixa-search {
+    position: relaitve;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+}
+
+.caixa-search:hover > .caixa-texto {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.caixa-search:hover > .botao-search {
+    background-color: black;
+    margin-left: px;
+}
+
+.botao-search {
+    color: firebrick;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.caixa-texto {
+    border: none;
+    background-color: #333;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.2s;
+    line-height: 40px;
+    width: 0px;
+    cursor: pointer;
+    height: 20px;
+    
+}
+
+.caixa_perguntas {
+    margin: 20px;
+    background-color: black;;
+    height: 200px;
+    width: 300px;
+    border-radius:10%;
+}
+
+.caixa_perguntas p {
+    text-align: center;
+    font-family: 'Anybody', cursive;
+    font-size: 25px;
+    margin: 5px;
+    color: firebrick;
+    block-size: auto;
+}
+
+.texto {
+    
+    align-items:center ;
+    margin-left: 24px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #333;
+    color: #fff;
+    font-size: 15px;      
+}
+
+.botao {
+    background-color: firebrick;;
+    border-radius: 10%;
+    margin: 5px;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: right;
+    font-family: 'Anybody', cursive;
+    color: black;
+    border:  auto 0;
+}
